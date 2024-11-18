@@ -2,8 +2,17 @@ apiVersion: v1
 entries:
   dapr:
   - apiVersion: v1
+    appVersion: 1.15.0-master-jake
+    created: "2024-11-18T15:19:37.419065-06:00"
+    description: A Helm chart for Dapr on Kubernetes
+    digest: cf3d991c6d9bdd56800650bc0a30881e2abdb9f007160138531b127207df3658
+    name: dapr
+    urls:
+    - https://filintod.github.io/dapr-charts/dapr-1.15.0-master-jake.tgz
+    version: 1.15.0-master-jake
+  - apiVersion: v1
     appVersion: 1.15.0-master-5
-    created: "2024-11-18T15:19:12.212074-06:00"
+    created: "2024-11-18T15:19:37.417773-06:00"
     description: A Helm chart for Dapr on Kubernetes
     digest: b8806838221c3b988ebb31c52351269a120b1d2101f459112d6bff10c1aa48d7
     name: dapr
@@ -12,11 +21,11 @@ entries:
     version: 1.15.0-master-5
   - apiVersion: v1
     appVersion: 1.15.0-master-4
-    created: "2024-11-18T15:19:12.210767-06:00"
+    created: "2024-11-18T15:19:37.416134-06:00"
     description: A Helm chart for Dapr on Kubernetes
     digest: 1100885608c162177f6edb97560fa1c5d99a3cf05ace31fdbbb02eb878a15d9c
     name: dapr
     urls:
     - https://filintod.github.io/dapr-charts/dapr-1.15.0-master-4.tgz
     version: 1.15.0-master-4
-generated: "2024-11-18T15:19:12.207583-06:00"
+generated: "2024-11-18T15:19:37.412394-06:00"
