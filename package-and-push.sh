@@ -1,10 +1,14 @@
 #!/bin/bash
 
+repo="${REPO:-git@github.com:dapr/dapr.git}"
+branch="${BRANCH:-master}"
+
 rm -rf ./dapr
-git clone --depth=1 --branch=master git@github.com:dapr/dapr.git
+
+git clone --depth=1 --branch=${branch} ${repo}
 rm -rf ./dapr/.git
 
-version="${IMAGE_TAG:-1.15-master-4-linux-arm64}"
+version="${IMAGE_TAG:-1.15.0-master-5}"
 
 image_registry="${REGISTRY:-ghcr.io/filintod}"
 image_tag="${version}"
